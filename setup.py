@@ -68,10 +68,10 @@ with open("./README.md") as readme:
     long_description = readme.read()
 
 setup(
-    name="web3",
+    name="web3_xdc",
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version="6.0.0-beta.9",
-    description="""Web3.py""",
+    description="""Web3_xdc.py""",
     long_description_content_type="text/markdown",
     long_description=long_description,
     author="Piper Merriam",
@@ -104,7 +104,7 @@ setup(
     zip_safe=False,
     keywords="ethereum",
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={"web3": ["py.typed"]},
+    package_data={"web3_xdc": ["py.typed"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
