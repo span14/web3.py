@@ -5,10 +5,10 @@ from pathlib import (
 )
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     CannotHandleURI,
     EthPMValidationError,
 )

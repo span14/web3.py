@@ -1,6 +1,6 @@
 import random
 
-from ethpm._utils.cache import (
+from ethpm_xdc._utils.cache import (
     cached_property,
 )
 

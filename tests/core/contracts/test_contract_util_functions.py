@@ -1,9 +1,9 @@
 import pytest
 
-from web3._utils.contracts import (
+from web3_xdc._utils.contracts import (
     validate_payable,
 )
-from web3.contract import (
+from web3_xdc.contract import (
     parse_block_identifier,
     parse_block_identifier_int,
 )

@@ -6,24 +6,24 @@ from eth_utils import (
     ValidationError,
 )
 
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     InfuraKeyNotFound,
 )
-from web3.providers import (
+from web3_xdc.providers import (
     HTTPProvider,
     IPCProvider,
     WebsocketProvider,
 )
-from web3.providers.auto import (
+from web3_xdc.providers.auto import (
     load_provider_from_environment,
 )
-from web3.providers.ipc import (
+from web3_xdc.providers.ipc import (
     get_dev_ipc_path,
 )
 
 # Ugly hack to import infura now that API KEY is required
 os.environ['WEB3_INFURA_API_KEY'] = 'test'
-from web3.auto import (  # noqa E402 isort:skip
+from web3_xdc.auto import (  # noqa E402 isort:skip
     infura,
 )
 

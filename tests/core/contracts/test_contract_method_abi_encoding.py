@@ -1,10 +1,10 @@
 import json
 import pytest
 
-from web3 import (
+from web3_xdc import (
     constants,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
 

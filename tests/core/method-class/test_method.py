@@ -7,16 +7,16 @@ from eth_utils.toolz import (
     compose,
 )
 
-from web3 import (
+from web3_xdc import (
     EthereumTesterProvider,
     Web3,
 )
-from web3.method import (
+from web3_xdc.method import (
     Method,
     _apply_request_formatters,
     default_root_munger,
 )
-from web3.module import (
+from web3_xdc.module import (
     Module,
     apply_result_formatters,
 )

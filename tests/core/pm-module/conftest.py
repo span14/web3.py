@@ -8,20 +8,20 @@ from eth_utils import (
     to_bytes,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.contract import (
+from ethpm_xdc.contract import (
     LinkableContract,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     get_ethpm_local_manifest,
 )
-from web3 import Web3
-from web3.pm import (
+from web3_xdc import Web3
+from web3_xdc.pm import (
     SimpleRegistry,
 )
-from web3.tools.pytest_ethereum.deployer import (
+from web3_xdc.tools.pytest_ethereum.deployer import (
     Deployer,
 )
 

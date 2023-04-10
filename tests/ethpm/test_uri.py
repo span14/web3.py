@@ -1,15 +1,15 @@
 import pytest
 
-from ethpm.backends.http import (
+from ethpm_xdc.backends.http import (
     is_valid_api_github_uri,
 )
-from ethpm.backends.registry import (
+from ethpm_xdc.backends.registry import (
     parse_registry_uri,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
 )
-from ethpm.uri import (
+from ethpm_xdc.uri import (
     create_content_addressed_github_uri,
     is_valid_content_addressed_github_uri,
 )

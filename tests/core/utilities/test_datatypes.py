@@ -1,6 +1,6 @@
 import pytest
 
-from web3._utils.datatypes import (
+from web3_xdc._utils.datatypes import (
     PropertyCheckingFactory,
 )
 

@@ -1,9 +1,9 @@
 import pytest
 
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
 )
-from ethpm.validation.misc import (
+from ethpm_xdc.validation.misc import (
     validate_empty_bytes,
     validate_escaped_string,
 )

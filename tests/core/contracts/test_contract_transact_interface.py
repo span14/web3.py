@@ -7,10 +7,10 @@ from eth_utils.toolz import (
     identity,
 )
 
-from web3._utils.empty import (
+from web3_xdc._utils.empty import (
     empty,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
 

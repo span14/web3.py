@@ -1,9 +1,9 @@
 import pytest
 
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
 )
-from ethpm.validation.uri import (
+from ethpm_xdc.validation.uri import (
     validate_registry_uri,
 )
 

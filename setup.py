@@ -65,10 +65,10 @@ with open("./README.md") as readme:
     long_description = readme.read()
 
 setup(
-    name="web3",
+    name="web3_xdc",
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version="5.31.3",
-    description="""Web3.py""",
+    description="""Web3_xdc.py""",
     long_description_content_type="text/markdown",
     long_description=long_description,
     author="Piper Merriam",
@@ -76,10 +76,11 @@ setup(
     url="https://github.com/ethereum/web3.py",
     include_package_data=True,
     install_requires=[
+        "charset-normalizer>=2.0,<3.0",
         "aiohttp>=3.7.4.post0,<4",
         "eth-abi>=2.2.0,<3.0.0",
         "eth-account>=0.5.9,<0.6.0",
-        "eth-hash[pycryptodome]>=0.2.0,<1.0.0",
+        "eth-hash[pycryptodome]>=0.3.1,<0.4.0",
         # eth-account allows too broad of an eth-rlp dependency.
         # This eth-rlp pin can be removed once it gets tightened up in eth-account
         "eth-rlp<0.3",
@@ -98,13 +99,13 @@ setup(
     ],
     python_requires=">=3.6,<4",
     extras_require=extras_require,
-    py_modules=["web3", "ens", "ethpm"],
-    entry_points={"pytest11": ["pytest_ethereum = web3.tools.pytest_ethereum.plugins"]},
+    py_modules=["web3_xdc", "ens_xdc", "ethpm_xdc"],
+    entry_points={"pytest11": ["pytest_ethereum = web3_xdc.tools.pytest_ethereum.plugins"]},
     license="MIT",
     zip_safe=False,
     keywords="ethereum",
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={"web3": ["py.typed"]},
+    package_data={"web3_xdc": ["py.typed"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

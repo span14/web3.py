@@ -1,16 +1,16 @@
 import pytest
 
-from ethpm._utils.contract import (
+from ethpm_xdc._utils.contract import (
     generate_contract_factory_kwargs,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
     InsufficientAssetsError,
 )
-from ethpm.validation.misc import (
+from ethpm_xdc.validation.misc import (
     validate_w3_instance,
 )
-from ethpm.validation.package import (
+from ethpm_xdc.validation.package import (
     validate_contract_name,
     validate_minimal_contract_factory_data,
 )

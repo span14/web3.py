@@ -1,7 +1,7 @@
 import pytest
 import time
 
-from web3._utils.threads import (
+from web3_xdc._utils.threads import (
     ThreadWithReturn,
     Timeout,
     spawn,

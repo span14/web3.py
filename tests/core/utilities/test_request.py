@@ -21,13 +21,13 @@ from requests.adapters import (
     HTTPAdapter,
 )
 
-from web3._utils import (
+from web3_xdc._utils import (
     request,
 )
-from web3._utils.caching import (
+from web3_xdc._utils.caching import (
     generate_cache_key,
 )
-from web3._utils.request import (
+from web3_xdc._utils.request import (
     SessionCache,
 )
 

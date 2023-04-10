@@ -1,10 +1,10 @@
 import pytest
 
-from web3._utils.filters import (
+from web3_xdc._utils.filters import (
     _UseExistingFilter,
     select_filter_method,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
 

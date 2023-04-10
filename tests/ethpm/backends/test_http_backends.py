@@ -5,13 +5,13 @@ from requests.exceptions import (
     HTTPError,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.backends.http import (
+from ethpm_xdc.backends.http import (
     GithubOverHTTPSBackend,
 )
-from ethpm.constants import (
+from ethpm_xdc.constants import (
     GITHUB_API_AUTHORITY,
 )
 

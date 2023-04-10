@@ -7,7 +7,7 @@ from eth_typing import (
     ChecksumAddress,
 )
 
-from web3._utils.module_testing import (  # noqa: F401
+from web3_xdc._utils.module_testing import (  # noqa: F401
     AsyncEthModuleTest,
     AsyncNetModuleTest,
     EthModuleTest,
@@ -19,12 +19,12 @@ from web3._utils.module_testing import (  # noqa: F401
     VersionModuleTest,
     Web3ModuleTest,
 )
-from web3.types import (
+from web3_xdc.types import (
     BlockData,
 )
 
 if TYPE_CHECKING:
-    from web3 import (  # noqa: F401
+    from web3_xdc import (  # noqa: F401
         Web3,
     )
 

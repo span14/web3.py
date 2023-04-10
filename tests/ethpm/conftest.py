@@ -5,22 +5,22 @@ from eth_utils.toolz import (
     assoc_in,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
     Package,
     get_ethpm_spec_dir,
 )
-from ethpm._utils.chains import (
+from ethpm_xdc._utils.chains import (
     create_block_uri,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     get_ethpm_spec_manifest,
 )
-from ethpm.uri import (
+from ethpm_xdc.uri import (
     create_latest_block_uri,
 )
-from web3 import Web3
-from web3.tools import (
+from web3_xdc import Web3
+from web3_xdc.tools import (
     linker,
 )
 

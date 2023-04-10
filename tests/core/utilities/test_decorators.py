@@ -1,9 +1,9 @@
 import time
 
-from web3._utils.decorators import (
+from web3_xdc._utils.decorators import (
     reject_recursive_repeats,
 )
-from web3._utils.threads import (
+from web3_xdc._utils.threads import (
     spawn,
 )
 

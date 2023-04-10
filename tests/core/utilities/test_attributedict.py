@@ -1,6 +1,6 @@
 import pytest
 
-from web3.datastructures import (
+from web3_xdc.datastructures import (
     AttributeDict,
 )
 

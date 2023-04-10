@@ -1,7 +1,7 @@
 # This file is used by the documentation as an example of how to write unit tests with web3.py
 import pytest
 
-from web3 import (
+from web3_xdc import (
     EthereumTesterProvider,
     Web3,
 )

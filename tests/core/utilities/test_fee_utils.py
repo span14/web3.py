@@ -4,11 +4,11 @@ from eth_utils import (
     is_integer,
 )
 
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_error_generator_middleware,
     construct_result_generator_middleware,
 )
-from web3.types import (
+from web3_xdc.types import (
     RPCEndpoint,
 )
 

@@ -1,11 +1,11 @@
 import os
 import pytest
 
-from ethpm.backends.registry import (
+from ethpm_xdc.backends.registry import (
     RegistryURIBackend,
     parse_registry_uri,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     CannotHandleURI,
 )
 

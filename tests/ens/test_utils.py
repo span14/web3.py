@@ -1,5 +1,5 @@
 
-from ens.utils import (
+from ens_xdc.utils import (
     init_web3,
 )
 

@@ -1,10 +1,10 @@
 import pytest
 
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     BlockNotFound,
     ExtraDataLengthError,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_fixture_middleware,
     geth_poa_middleware,
 )

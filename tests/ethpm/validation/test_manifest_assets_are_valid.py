@@ -1,13 +1,13 @@
 import json
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     InsufficientAssetsError,
 )
-from ethpm.validation.manifest import (
+from ethpm_xdc.validation.manifest import (
     validate_manifest_against_schema,
 )
 

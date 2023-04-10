@@ -1,16 +1,16 @@
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
     Package,
 )
-from web3.tools.pytest_ethereum.deployer import (
+from web3_xdc.tools.pytest_ethereum.deployer import (
     Deployer,
 )
-from web3.tools.pytest_ethereum.exceptions import (
+from web3_xdc.tools.pytest_ethereum.exceptions import (
     DeployerError,
 )
-from web3.tools.pytest_ethereum.linker import (
+from web3_xdc.tools.pytest_ethereum.linker import (
     deploy,
     link,
     linker,

@@ -1,6 +1,6 @@
 import pytest
 
-from ethpm.tools.checker import (
+from ethpm_xdc.tools.checker import (
     WARNINGS,
     check_contract_types,
     check_manifest,

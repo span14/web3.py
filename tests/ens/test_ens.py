@@ -1,5 +1,5 @@
-from ens import ENS
-from web3.middleware import (
+from ens_xdc import ENS
+from web3_xdc.middleware import (
     pythonic_middleware,
 )
 

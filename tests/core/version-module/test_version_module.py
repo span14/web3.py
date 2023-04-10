@@ -1,16 +1,16 @@
 import pytest
 
-from web3 import (
+from web3_xdc import (
     EthereumTesterProvider,
     Web3,
 )
-from web3.eth import (
+from web3_xdc.eth import (
     Eth,
 )
-from web3.providers.eth_tester.main import (
+from web3_xdc.providers.eth_tester.main import (
     AsyncEthereumTesterProvider,
 )
-from web3.version import (
+from web3_xdc.version import (
     AsyncVersion,
     BlockingVersion,
     Version,

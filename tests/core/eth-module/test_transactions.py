@@ -1,15 +1,15 @@
 import pytest
 
-from web3._utils.ens import (
+from web3_xdc._utils.ens import (
     ens_addresses,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     NameNotFound,
     TimeExhausted,
     TransactionNotFound,
     ValidationError,
 )
-from web3.middleware.simulate_unmined_transaction import (
+from web3_xdc.middleware.simulate_unmined_transaction import (
     unmined_receipt_simulator_middleware,
 )
 

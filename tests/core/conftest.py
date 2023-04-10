@@ -1,6 +1,6 @@
 import pytest
 
-from web3.module import (
+from web3_xdc.module import (
     Module,
 )
 

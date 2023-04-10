@@ -1,6 +1,6 @@
 import pytest
 
-from ethpm._utils.chains import (
+from ethpm_xdc._utils.chains import (
     is_BIP122_block_uri,
     is_supported_chain_id,
     parse_BIP122_uri,

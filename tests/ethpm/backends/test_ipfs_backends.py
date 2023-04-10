@@ -11,14 +11,14 @@ from ipfshttpclient.exceptions import (
     TimeoutError,
 )
 
-from ethpm.backends.ipfs import (
+from ethpm_xdc.backends.ipfs import (
     DummyIPFSBackend,
     InfuraIPFSBackend,
     LocalIPFSBackend,
     get_ipfs_backend,
     get_ipfs_backend_class,
 )
-from ethpm.constants import (
+from ethpm_xdc.constants import (
     INFURA_GATEWAY_MULTIADDR,
 )
 

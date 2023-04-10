@@ -1,9 +1,9 @@
 import pytest
 
-from web3.main import (
+from web3_xdc.main import (
     Web3,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
 

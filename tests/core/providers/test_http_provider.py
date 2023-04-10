@@ -5,11 +5,11 @@ from requests.adapters import (
     HTTPAdapter,
 )
 
-from web3 import Web3
-from web3._utils import (
+from web3_xdc import Web3
+from web3_xdc._utils import (
     request,
 )
-from web3.providers import (
+from web3_xdc.providers import (
     HTTPProvider,
 )
 

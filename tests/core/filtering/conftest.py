@@ -7,16 +7,16 @@ from eth_utils import (
     event_signature_to_log_topic,
 )
 
-from web3 import Web3
-from web3._utils.module_testing.emitter_contract import (
+from web3_xdc import Web3
+from web3_xdc._utils.module_testing.emitter_contract import (
     CONTRACT_EMITTER_ABI,
     CONTRACT_EMITTER_CODE,
     CONTRACT_EMITTER_RUNTIME,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     local_filter_middleware,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
 

@@ -12,22 +12,22 @@ from eth_utils.toolz import (
     assoc_in,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
     Package,
 )
-from ethpm.backends.ipfs import (
+from ethpm_xdc.backends.ipfs import (
     get_ipfs_backend,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
     ManifestBuildingError,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     get_ethpm_local_manifest,
     get_ethpm_spec_manifest,
 )
-from ethpm.tools.builder import (
+from ethpm_xdc.tools.builder import (
     as_package,
     authors,
     build,
@@ -51,7 +51,7 @@ from ethpm.tools.builder import (
     version,
     write_to_disk,
 )
-from web3.tools.pytest_ethereum.linker import (
+from web3_xdc.tools.pytest_ethereum.linker import (
     deploy,
     link,
     linker,

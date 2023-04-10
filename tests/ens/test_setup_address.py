@@ -8,13 +8,13 @@ from eth_utils import (
     to_bytes,
 )
 
-from ens.constants import (
+from ens_xdc.constants import (
     EMPTY_ADDR_HEX,
 )
-from ens.main import (
+from ens_xdc.main import (
     UnauthorizedError,
 )
-from web3 import Web3
+from web3_xdc import Web3
 
 
 """

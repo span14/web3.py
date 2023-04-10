@@ -3,7 +3,7 @@ from pathlib import (
 )
 import pytest
 
-from ethpm._utils.ipfs import (
+from ethpm_xdc._utils.ipfs import (
     extract_ipfs_path_from_uri,
     generate_file_hash,
     is_ipfs_uri,

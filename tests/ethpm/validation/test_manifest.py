@@ -1,16 +1,16 @@
 import pytest
 
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
 )
-from ethpm.validation.manifest import (
+from ethpm_xdc.validation.manifest import (
     extract_contract_types_from_deployments,
     validate_manifest_against_schema,
     validate_manifest_deployments,
     validate_meta_object,
     validate_raw_manifest_format,
 )
-from ethpm.validation.package import (
+from ethpm_xdc.validation.package import (
     validate_manifest_version,
     validate_package_name,
 )

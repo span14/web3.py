@@ -4,13 +4,13 @@ from eth_utils import (
     to_bytes,
 )
 
-from web3._utils.validation import (
+from web3_xdc._utils.validation import (
     validate_abi,
     validate_abi_type,
     validate_abi_value,
     validate_address,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     InvalidAddress,
 )
 

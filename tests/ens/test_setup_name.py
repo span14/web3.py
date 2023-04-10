@@ -1,11 +1,11 @@
 import pytest
 
-from ens.main import (
+from ens_xdc.main import (
     AddressMismatch,
     UnauthorizedError,
     UnownedName,
 )
-from web3 import Web3
+from web3_xdc import Web3
 
 
 """

@@ -1,6 +1,6 @@
 import pytest
 
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     MismatchedABI,
     NoABIEventsFound,
 )

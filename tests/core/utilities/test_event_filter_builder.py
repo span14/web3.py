@@ -8,7 +8,7 @@ from hypothesis import (
     strategies as st,
 )
 
-from web3._utils.events import (
+from web3_xdc._utils.events import (
     DataArgumentFilter,
     TopicArgumentFilter,
     normalize_topic_list,

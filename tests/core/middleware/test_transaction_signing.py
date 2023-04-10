@@ -28,21 +28,21 @@ from hexbytes import (
     HexBytes,
 )
 
-from web3 import Web3
-from web3.exceptions import (
+from web3_xdc import Web3
+from web3_xdc.exceptions import (
     InvalidAddress,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_result_generator_middleware,
     construct_sign_and_send_raw_middleware,
 )
-from web3.middleware.signing import (
+from web3_xdc.middleware.signing import (
     gen_normalized_accounts,
 )
-from web3.providers import (
+from web3_xdc.providers import (
     BaseProvider,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
 

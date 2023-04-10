@@ -1,9 +1,9 @@
 import pytest
 
-from web3._utils.rpc_abi import (
+from web3_xdc._utils.rpc_abi import (
     RPC,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_result_generator_middleware,
 )
 

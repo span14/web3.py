@@ -6,7 +6,7 @@ from hexbytes import (
     HexBytes,
 )
 
-from web3 import Web3
+from web3_xdc import Web3
 
 
 @pytest.mark.parametrize(

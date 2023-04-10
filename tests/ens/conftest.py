@@ -6,8 +6,8 @@ from eth_tester import (
     EthereumTester,
 )
 
-from ens import ENS
-from ens.contract_data import (
+from ens_xdc import ENS
+from ens_xdc.contract_data import (
     registrar_abi,
     registrar_bytecode,
     registrar_bytecode_runtime,
@@ -21,11 +21,11 @@ from ens.contract_data import (
     reverse_resolver_bytecode,
     reverse_resolver_bytecode_runtime,
 )
-from web3 import Web3
-from web3.contract import (
+from web3_xdc import Web3
+from web3_xdc.contract import (
     Contract,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
 

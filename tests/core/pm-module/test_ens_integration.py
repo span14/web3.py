@@ -4,14 +4,14 @@ from eth_utils import (
     to_bytes,
 )
 
-from ens import ENS
-from ethpm import (
+from ens_xdc import ENS
+from ethpm_xdc import (
     ASSETS_DIR,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     InvalidAddress,
 )
-from web3.pm import (
+from web3_xdc.pm import (
     SimpleRegistry,
 )
 

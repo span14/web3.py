@@ -4,14 +4,14 @@ from eth_utils import (
     is_same_address,
 )
 
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
     InsufficientAssetsError,
 )
-from ethpm.package import (
+from ethpm_xdc.package import (
     Package,
 )
-from web3 import Web3
+from web3_xdc import Web3
 
 # TODO: Add proper authentication to IPFS calls
 pytest.skip(

@@ -1,7 +1,7 @@
-from web3.manager import (
+from web3_xdc.manager import (
     RequestManager,
 )
-from web3.providers import (
+from web3_xdc.providers import (
     BaseProvider,
 )
 

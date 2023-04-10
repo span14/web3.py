@@ -1,17 +1,17 @@
 import pytest
 
-from web3 import (
+from web3_xdc import (
     Web3,
     constants,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     InvalidAddress,
 )
-from web3.middleware import (  # noqa: F401
+from web3_xdc.middleware import (  # noqa: F401
     construct_fixture_middleware,
     name_to_address_middleware,
 )
-from web3.providers.base import (
+from web3_xdc.providers.base import (
     BaseProvider,
 )
 

@@ -1,16 +1,16 @@
 import pytest
 
-from web3._utils.method_formatters import (
+from web3_xdc._utils.method_formatters import (
     get_error_formatters,
     raise_solidity_error_on_revert,
 )
-from web3._utils.rpc_abi import (
+from web3_xdc._utils.rpc_abi import (
     RPC,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ContractLogicError,
 )
-from web3.types import (
+from web3_xdc.types import (
     RPCResponse,
 )
 

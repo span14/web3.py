@@ -1,12 +1,12 @@
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.deployments import (
+from ethpm_xdc.deployments import (
     Deployments,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
 )
 

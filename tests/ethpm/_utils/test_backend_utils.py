@@ -1,21 +1,21 @@
 import os
 import pytest
 
-from ethpm._utils.backend import (
+from ethpm_xdc._utils.backend import (
     get_resolvable_backends_for_uri,
     get_translatable_backends_for_uri,
 )
-from ethpm.backends.ipfs import (
+from ethpm_xdc.backends.ipfs import (
     InfuraIPFSBackend,
     LocalIPFSBackend,
 )
-from ethpm.backends.registry import (
+from ethpm_xdc.backends.registry import (
     RegistryURIBackend,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     CannotHandleURI,
 )
-from ethpm.uri import (
+from ethpm_xdc.uri import (
     resolve_uri_contents,
 )
 

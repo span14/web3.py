@@ -1,12 +1,12 @@
 import pytest
 
-from web3 import Web3
-from web3.middleware import (
+from web3_xdc import Web3
+from web3_xdc.middleware import (
     construct_error_generator_middleware,
     construct_fixture_middleware,
     construct_result_generator_middleware,
 )
-from web3.providers.base import (
+from web3_xdc.providers.base import (
     BaseProvider,
 )
 

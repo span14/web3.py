@@ -8,14 +8,14 @@ from eth_utils.toolz import (
     dissoc,
 )
 
-from web3._utils.events import (
+from web3_xdc._utils.events import (
     get_event_data,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     LogTopicError,
     ValidationError,
 )
-from web3.logs import (
+from web3_xdc.logs import (
     DISCARD,
     IGNORE,
     STRICT,

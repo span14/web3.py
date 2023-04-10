@@ -1,12 +1,12 @@
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.dependencies import (
+from ethpm_xdc.dependencies import (
     Dependencies,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     EthPMValidationError,
     FailureToFetchIPFSAssetsError,
 )

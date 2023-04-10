@@ -5,7 +5,7 @@ from eth_utils import (
     decode_hex,
 )
 
-from web3 import (
+from web3_xdc import (
     constants,
 )
 

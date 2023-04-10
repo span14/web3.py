@@ -4,22 +4,22 @@ from eth_utils import (
     to_bytes,
 )
 
-from ethpm._utils.deployments import (
+from ethpm_xdc._utils.deployments import (
     get_linked_deployments,
     normalize_linked_references,
     validate_linked_references,
 )
-from ethpm.contract import (
+from ethpm_xdc.contract import (
     LinkableContract,
 )
-from ethpm.deployments import (
+from ethpm_xdc.deployments import (
     Deployments,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     BytecodeLinkingError,
     EthPMValidationError,
 )
-from web3.eth import (
+from web3_xdc.eth import (
     Contract,
 )
 

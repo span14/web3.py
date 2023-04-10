@@ -24,18 +24,18 @@ from hexbytes import (
     HexBytes,
 )
 
-from web3 import (
+from web3_xdc import (
     Account,
     Web3,
 )
-from web3.eth import (
+from web3_xdc.eth import (
     AsyncEth,
     BaseEth,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
-from web3.providers.eth_tester.main import (
+from web3_xdc.providers.eth_tester.main import (
     AsyncEthereumTesterProvider,
 )
 

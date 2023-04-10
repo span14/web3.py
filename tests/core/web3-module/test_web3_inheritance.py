@@ -1,4 +1,4 @@
-from web3 import (
+from web3_xdc import (
     EthereumTesterProvider,
     Web3,
 )

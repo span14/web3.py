@@ -1,6 +1,6 @@
 import pytest
 
-from web3._utils.transactions import (
+from web3_xdc._utils.transactions import (
     assert_valid_transaction_params,
     extract_valid_transaction_params,
     fill_transaction_defaults,

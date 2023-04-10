@@ -7,17 +7,17 @@ from eth_utils import (
     is_integer,
 )
 
-from web3 import Web3
-from web3._utils.module import (
+from web3_xdc import Web3
+from web3_xdc._utils.module import (
     attach_modules,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
-from web3.module import (
+from web3_xdc.module import (
     Module,
 )
-from web3.providers.eth_tester import (
+from web3_xdc.providers.eth_tester import (
     EthereumTesterProvider,
 )
 

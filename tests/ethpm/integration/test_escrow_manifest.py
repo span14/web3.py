@@ -4,16 +4,16 @@ from eth_utils import (
     to_canonical_address,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     BytecodeLinkingError,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     get_ethpm_spec_manifest,
 )
-import web3
+import web3_xdc
 
 
 def test_deployed_escrow_and_safe_send(escrow_manifest, w3):
@@ -53,7 +53,7 @@ def test_deployed_escrow_and_safe_send(escrow_manifest, w3):
     contract_instance = LinkedEscrowFactory(escrow_address)
     assert EscrowFactory.needs_bytecode_linking is True
     assert LinkedEscrowFactory.needs_bytecode_linking is False
-    assert isinstance(contract_instance, web3.contract.Contract)
+    assert isinstance(contract_instance, web3_xdc.contract.Contract)
     assert safe_send_address in LinkedEscrowFactory.bytecode
     assert safe_send_address in LinkedEscrowFactory.bytecode_runtime
     assert safe_send_address not in EscrowFactory.bytecode

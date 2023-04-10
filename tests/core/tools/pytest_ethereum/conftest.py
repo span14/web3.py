@@ -3,10 +3,10 @@ from pathlib import (
 )
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     get_ethpm_spec_dir,
 )
-from web3 import Web3
+from web3_xdc import Web3
 
 PYTEST_ETH_TESTS_DIR = Path(__file__).parent
 

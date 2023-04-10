@@ -4,17 +4,17 @@ from eth_utils import (
     to_canonical_address,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.contract import (
+from ethpm_xdc.contract import (
     LinkableContract,
     apply_all_link_refs,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     BytecodeLinkingError,
 )
-from web3.contract import (
+from web3_xdc.contract import (
     Contract,
 )
 

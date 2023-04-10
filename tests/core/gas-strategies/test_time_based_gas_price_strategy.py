@@ -1,19 +1,19 @@
 import pytest
 
-from web3 import (
+from web3_xdc import (
     Web3,
     constants,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
-from web3.gas_strategies.time_based import (
+from web3_xdc.gas_strategies.time_based import (
     construct_time_based_gas_price_strategy,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_result_generator_middleware,
 )
-from web3.providers.base import (
+from web3_xdc.providers.base import (
     BaseProvider,
 )
 

@@ -1,15 +1,15 @@
 import asyncio
 import pytest
 
-from web3._utils.module_testing.emitter_contract import (
+from web3_xdc._utils.module_testing.emitter_contract import (
     CONTRACT_EMITTER_ABI,
     CONTRACT_EMITTER_CODE,
 )
-from web3._utils.module_testing.math_contract import (
+from web3_xdc._utils.module_testing.math_contract import (
     MATH_ABI,
     MATH_BYTECODE,
 )
-from web3._utils.module_testing.revert_contract import (
+from web3_xdc._utils.module_testing.revert_contract import (
     _REVERT_CONTRACT_ABI,
     REVERT_CONTRACT_BYTECODE,
 )

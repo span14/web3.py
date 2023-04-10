@@ -8,15 +8,15 @@ from eth_utils.toolz import (
     assoc,
 )
 
-from ethpm.uri import (
+from ethpm_xdc.uri import (
     create_latest_block_uri,
 )
-from web3.tools.pytest_ethereum._utils import (
+from web3_xdc.tools.pytest_ethereum._utils import (
     contains_matching_uri,
     insert_deployment,
     pluck_matching_uri,
 )
-from web3.tools.pytest_ethereum.exceptions import (
+from web3_xdc.tools.pytest_ethereum.exceptions import (
     LinkerError,
 )
 

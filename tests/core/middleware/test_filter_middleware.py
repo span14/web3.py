@@ -4,19 +4,19 @@ from hexbytes import (
     HexBytes,
 )
 
-from web3 import Web3
-from web3.datastructures import (
+from web3_xdc import Web3
+from web3_xdc.datastructures import (
     AttributeDict,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     construct_result_generator_middleware,
     local_filter_middleware,
 )
-from web3.middleware.filter import (
+from web3_xdc.middleware.filter import (
     block_ranges,
     iter_latest_block_ranges,
 )
-from web3.providers.base import (
+from web3_xdc.providers.base import (
     BaseProvider,
 )
 

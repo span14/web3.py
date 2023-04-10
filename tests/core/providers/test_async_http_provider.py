@@ -5,10 +5,10 @@ from aiohttp import (
     ClientSession,
 )
 
-from web3._utils import (
+from web3_xdc._utils import (
     request,
 )
-from web3.providers.async_rpc import (
+from web3_xdc.providers.async_rpc import (
     AsyncHTTPProvider,
 )
 

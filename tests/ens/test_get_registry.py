@@ -4,8 +4,8 @@ from unittest.mock import (
     patch,
 )
 
-from ens import ENS
-from web3 import Web3
+from ens_xdc import ENS
+from web3_xdc import Web3
 
 
 def test_resolver_empty(ens):

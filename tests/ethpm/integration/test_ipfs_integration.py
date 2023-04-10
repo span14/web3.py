@@ -4,15 +4,15 @@ from eth_utils import (
     to_bytes,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
 )
-from ethpm.backends.ipfs import (
+from ethpm_xdc.backends.ipfs import (
     InfuraIPFSBackend,
     LocalIPFSBackend,
     get_ipfs_backend,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     builder as b,
 )
 

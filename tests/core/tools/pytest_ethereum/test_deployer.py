@@ -5,11 +5,11 @@ from eth_utils import (
     is_address,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     ASSETS_DIR,
 )
-import web3
-from web3.tools.pytest_ethereum.exceptions import (
+import web3_xdc
+from web3_xdc.tools.pytest_ethereum.exceptions import (
     DeployerError,
 )
 
@@ -29,7 +29,7 @@ def greeter(deployer, pte_assets_dir):
 
 def test_user_code_with_fixture(greeter):
     greeter_instance = greeter.deployments.get_instance("greeter")
-    assert isinstance(greeter_instance, web3.contract.Contract)
+    assert isinstance(greeter_instance, web3_xdc.contract.Contract)
     greeting = greeter_instance.functions.greet().call()
     assert greeting == b"Hello"
 

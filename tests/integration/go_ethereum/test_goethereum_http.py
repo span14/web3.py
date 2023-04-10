@@ -3,31 +3,31 @@ import pytest
 from tests.utils import (
     get_open_port,
 )
-from web3 import Web3
-from web3._utils.module_testing.go_ethereum_admin_module import (
+from web3_xdc import Web3
+from web3_xdc._utils.module_testing.go_ethereum_admin_module import (
     GoEthereumAsyncAdminModuleTest,
 )
-from web3._utils.module_testing.go_ethereum_personal_module import (
+from web3_xdc._utils.module_testing.go_ethereum_personal_module import (
     GoEthereumAsyncPersonalModuleTest,
 )
-from web3.eth import (
+from web3_xdc.eth import (
     AsyncEth,
 )
-from web3.geth import (
+from web3_xdc.geth import (
     AsyncGethAdmin,
     AsyncGethPersonal,
     AsyncGethTxPool,
     Geth,
 )
-from web3.middleware import (
+from web3_xdc.middleware import (
     async_buffered_gas_estimate_middleware,
     async_gas_price_strategy_middleware,
     async_validation_middleware,
 )
-from web3.net import (
+from web3_xdc.net import (
     AsyncNet,
 )
-from web3.providers.async_rpc import (
+from web3_xdc.providers.async_rpc import (
     AsyncHTTPProvider,
 )
 

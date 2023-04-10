@@ -3,16 +3,16 @@ import pytest
 import time
 import uuid
 
-from web3 import Web3
-from web3._utils.caching import (
+from web3_xdc import Web3
+from web3_xdc._utils.caching import (
     generate_cache_key,
 )
-from web3.middleware import (  # noqa: F401
+from web3_xdc.middleware import (  # noqa: F401
     construct_error_generator_middleware,
     construct_result_generator_middleware,
     construct_time_based_cache_middleware,
 )
-from web3.providers.base import (
+from web3_xdc.providers.base import (
     BaseProvider,
 )
 

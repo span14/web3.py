@@ -10,11 +10,11 @@ import websockets
 from tests.utils import (
     wait_for_ws,
 )
-from web3 import Web3
-from web3.exceptions import (
+from web3_xdc import Web3
+from web3_xdc.exceptions import (
     ValidationError,
 )
-from web3.providers.websocket import (
+from web3_xdc.providers.websocket import (
     WebsocketProvider,
 )
 

@@ -4,17 +4,17 @@ from eth_utils.toolz import (
     compose,
 )
 
-from web3 import Web3
-from web3.method import (
+from web3_xdc import Web3
+from web3_xdc.method import (
     Method,
 )
-from web3.middleware.fixture import (
+from web3_xdc.middleware.fixture import (
     construct_result_generator_middleware,
 )
-from web3.module import (
+from web3_xdc.module import (
     Module,
 )
-from web3.providers import (
+from web3_xdc.providers import (
     BaseProvider,
 )
 

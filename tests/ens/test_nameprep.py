@@ -1,7 +1,7 @@
 
 import pytest
 
-from ens import (
+from ens_xdc import (
     InvalidName,
 )
 

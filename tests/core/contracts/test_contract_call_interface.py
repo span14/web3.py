@@ -22,10 +22,10 @@ from hexbytes import (
     HexBytes,
 )
 
-from web3._utils.ens import (
+from web3_xdc._utils.ens import (
     contract_ens_addresses,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     BadFunctionCallOutput,
     BlockNumberOutofRange,
     FallbackNotFound,

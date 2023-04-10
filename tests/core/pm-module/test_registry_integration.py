@@ -5,17 +5,17 @@ from eth_utils import (
     to_checksum_address,
 )
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.contract import (
+from ethpm_xdc.contract import (
     LinkableContract,
 )
-from web3 import Web3
-from web3.exceptions import (
+from web3_xdc import Web3
+from web3_xdc.exceptions import (
     PMError,
 )
-from web3.pm import (
+from web3_xdc.pm import (
     SimpleRegistry,
     get_simple_registry_manifest,
 )

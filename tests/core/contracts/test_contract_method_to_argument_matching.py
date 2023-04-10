@@ -1,14 +1,14 @@
 import json
 import pytest
 
-from web3._utils.abi import (
+from web3_xdc._utils.abi import (
     get_abi_input_types,
 )
-from web3._utils.function_identifiers import (
+from web3_xdc._utils.function_identifiers import (
     FallbackFn,
     ReceiveFn,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     ValidationError,
 )
 

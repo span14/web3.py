@@ -4,7 +4,7 @@ from eth_utils.toolz import (
     identity,
 )
 
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     MismatchedABI,
     NoABIFound,
     NoABIFunctionsFound,

@@ -1,17 +1,17 @@
 import json
 import pytest
 
-from ethpm import (
+from ethpm_xdc import (
     Package,
 )
-from ethpm.exceptions import (
+from ethpm_xdc.exceptions import (
     InsufficientAssetsError,
 )
-from ethpm.tools import (
+from ethpm_xdc.tools import (
     get_ethpm_local_manifest,
     get_ethpm_spec_manifest,
 )
-from web3.exceptions import (
+from web3_xdc.exceptions import (
     PMError,
 )
 

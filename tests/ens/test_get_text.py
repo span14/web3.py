@@ -4,10 +4,10 @@ from eth_tester.exceptions import (
     TransactionFailed,
 )
 
-from ens.exceptions import (
+from ens_xdc.exceptions import (
     UnownedName,
 )
-from web3 import Web3
+from web3_xdc import Web3
 
 
 @pytest.mark.parametrize('key,expected', (
